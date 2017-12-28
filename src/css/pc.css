@@ -1,0 +1,43 @@
+.header ul{
+    width: 100%;
+    text-align: center;
+}
+
+/*  滚动条的样式 */
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+.header ul li{
+     width: 100%;
+ }
+
+
+.carousel img{
+    width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.card{
+    padding-top: 20px;
+}
+
+.card-img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.card-img img{
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+}
+
+.footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
